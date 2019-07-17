@@ -1,0 +1,25 @@
+1.  Login using txt files that conveniently already have an account in them (plaintext) [DONE]
+2.  Create an account, appending it to end of file.
+        a. Plaintext [DONE]
+        b. Hash [DONE]
+        c. Salt hash (note: length of salt should be one byte) [DONE]
+3.  Generate many accounts.  This method call the createAccount() method [DONE]
+4.  Login using Hash [DONE]
+5.  Login using Salt Hash [DONE]
+6.  Password Cracker - Remember all passwords restricted to [a..z][0..9]
+        a. Plaintext
+        b. Hash
+        c. Salt Hash
+
+LOWER PRIORITY BUT STILL IMPORTANT
+1.  Make usernames case-insensitive
+2.  Skip over first line when reading .txt files (or remove the header altogether) [DONE]
+3.  All passwords restricted to [a..z][0..9]
+4.  Usernames restricted to 8 characters
+5.  Use .trim() on all strings where appropriate
+
+QOLFeatures (lower priority, but do this if you have time)
+i.   Add menu option to delete and reinitialize password files [DONE]
+ii.  Add "Welcome, <username>" on the Main Menu after logging in
+iii. Break up SSCrypto into multiple class files
+iv.  Deal with exceptions thrown by entering non-integers during Menu selection
